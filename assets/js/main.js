@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
     (function ($) {
-        $('.custom-select').select2();
+        customSelect();
         backToTop();
         bs4Accordion();
         loadMore();
@@ -14,6 +14,12 @@ jQuery(window).on('scroll', function () {
         backToTopVisible();
     })(jQuery);
 });
+
+function customSelect() {
+    if ($('.custom-select').length) {
+        $('.custom-select').select2();
+    };
+}
 
 var $navi = $("header"), scrollTop = 0;
 $(window).scroll(function () {
@@ -113,7 +119,6 @@ function loadMore() {
         });
     };
 }
-
 
 
 $('.fav').on('click', function () {

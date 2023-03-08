@@ -40,10 +40,10 @@ header {
 }
 
 .logo {
-	img {width: 200px;}
+	// img {width: 200px;}
 	flex-grow: 0;
 	@media(min-width: 1200px) {
-		img {width: 260px;}
+		// img {width: 260px;}
 	}
 }
 

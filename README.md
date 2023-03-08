@@ -1,9 +1,12 @@
 ## #Live Pages
 
 - [Home](https://tanimmahbub.github.io/greetings-card/index.html)
-- [Three steps Form](https://tanimmahbub.github.io/greetings-card/card-form.html)
+- [Cards Page](https://tanimmahbub.github.io/greetings-card/cards.html)
+- [Edit Card](https://tanimmahbub.github.io/greetings-card/card-form.html)
+- [Single Card](https://tanimmahbub.github.io/greetings-card/card-single.html)
+
+<hr>
+
 - [Register](https://tanimmahbub.github.io/greetings-card/signup.html)
 - [Login](https://tanimmahbub.github.io/greetings-card/login.html)
 - [Forgot Password](https://tanimmahbub.github.io/greetings-card/forgot-password.html)
-- [Cards Page](https://tanimmahbub.github.io/greetings-card/cards.html)
-- [Cards view 2](https://tanimmahbub.github.io/greetings-card/cards-card-view.html)

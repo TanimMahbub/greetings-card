@@ -21,6 +21,10 @@ function customSelect() {
     };
 }
 
+$(function () {
+    $("body").tooltip({ selector: '[data-bs-toggle="tooltip"]' });
+});
+
 var $navi = $("header"), scrollTop = 0;
 $(window).scroll(function () {
     var y = $(this).scrollTop(), speed = 0.05, pos = y * speed, maxPos = 110;
@@ -120,13 +124,24 @@ function loadMore() {
     };
 }
 
-
 $('.fav').on('click', function () {
     if($(this).hasClass('faved')) {
         $(this).removeClass('faved');
     } else {
         $(this).addClass('faved');
     }
+});
+
+$('.like-btn').on('click', function () {
+    if($(this).hasClass('liked')) {
+        $(this).removeClass('liked');
+    } else {
+        $(this).addClass('liked');
+    }
+});
+
+$('.comment-btn').on('click', function () {
+    $('.msg-box').focus();
 });
 
 $(".upload-image a").on('click', function(e) {
